@@ -1,0 +1,7 @@
+
+
+To compile:
+gcc -o minesweeper minesweeper.c `pkg-config --libs --cflags gtk+-2.0`
+
+To Run:
+./minesweeper
